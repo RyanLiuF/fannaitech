@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <style type="text/css">
-    a{margin-left: 20px; text-decoration: none;}
-    a:hover{text-decoration: underline;}
-    </style>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <title><%= title %></title>
+      <link rel="stylesheet" href="stylesheets/bootstrap.min.css" media="screen">
+      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+      <style type="text/css">
+      .m15{ margin: 15px;}
+       .tc{ text-align: center;font-size: 18px;font-weight: 600;}
+      </style>
   </head>
   <body>
   <h1>Your name:   <%- user.name %></h1>
@@ -14,4 +17,11 @@
     <p><a href="/logout">我要注销 </a>
     </p>
   </body>
+  <footer class="footer navbar-fixed-bottom ">
+      <div class="container">
+          <center><cite title="Fan AI Technology Lo.td">&copy;2019 凡特智能科技有限公司</cite></center>
+      </div>
+  </footer>
+  <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
 </html>

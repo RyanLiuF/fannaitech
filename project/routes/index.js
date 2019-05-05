@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET index page. */
 router.get('/', function(req, res,next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Fan AI Tech Lo.td' });
 });
 
 /* GET home page. */
